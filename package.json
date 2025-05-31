@@ -2,7 +2,7 @@
   "name": "myproject",
   "version": "1.0.0",
   "description": "myProject",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -14,6 +14,7 @@
   "author": "Vishal Bhat Soori",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
   }
 }
