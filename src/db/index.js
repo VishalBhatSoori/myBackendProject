@@ -7,7 +7,7 @@ const connectDB = async ()=>{
         console.log(`DBMongo connected ${promise.connection.host}`)
     } catch (error) {
         console.log("MongoDB connection error", error)
-        process.exit(1)
+        throw error
     }
     
 }
