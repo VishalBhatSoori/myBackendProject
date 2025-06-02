@@ -1,6 +1,6 @@
-import dotenv from 'dotenv'
-import connectDB from './db/index.js'
-dotenv.config()
+import dotenv from 'dotenv';
+import connectDB from './db/index.js';
+dotenv.config();
 
 const port = process.env.PORT || 8000;
 
@@ -17,7 +17,7 @@ connectDB()
 .catch((err)=>{
     console.log("MongoDB Connection Error!!!",err)
     process.exit(1);
-})
+});
 
 /*
 import mongoose from 'mongoose';
